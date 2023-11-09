@@ -1,0 +1,56 @@
+<div class="space-y-10">
+  <div class="mt-6 flex items-center justify-end gap-x-6">
+    <button mat-button>Cancelar</button>
+    <button mat-raised-button color="primary">Salvar</button>
+  </div>
+  <div class="border-b border-gray-900/10 pb-12">
+    <h2 class="text-base font-semibold leading-7 text-gray-900">Palestra</h2>
+   
+    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+      
+      <div class="col-span-full">
+        <p class="mt-0 text-sm leading-6 text-gray-600">Titulo do projeto.</p>
+        <mat-form-field class="w-full">
+          <mat-label>Título</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+      </div>
+        
+      <div class="col-span-full">
+        <p class="mt-0 text-sm leading-6 text-gray-600">Descrição do projeto.</p>
+        <mat-form-field class="w-full">
+          <mat-label>Descrição</mat-label>
+          <textarea matInput
+                    cdkTextareaAutosize
+                    #autosize="cdkTextareaAutosize"
+                    cdkAutosizeMinRows="7"
+                    cdkAutosizeMaxRows="7"></textarea>
+        </mat-form-field>
+      </div>
+
+      <div class="col-span-full">
+        <p class="mt-0 text-sm leading-6 text-gray-600">Periodo do projeto.</p>
+        <mat-form-field class="w-full">
+          <mat-label>Periodo</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+      </div>
+
+      <div class="col-span-full">
+        <p class="mt-0 text-sm leading-6 text-gray-600">Cursos do projeto.</p>
+        <mat-form-field class="w-full">
+          <mat-label>Cursos</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+      </div>
+
+      <div class="col-span-full">
+        <p class="mt-0 text-sm leading-6 text-gray-600">CR minimo do projeto.</p>
+        <mat-form-field class="w-full">
+          <mat-label>CR</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+      </div>
+    </div>
+  </div>
+</div>
